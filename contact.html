@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Horizon Design Studio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Horizon<span>Design</span></a>
+                </div>
+                <nav class="nav">
+                    <button class="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="about.html">About</a></li>
+                        <li class="nav-item"><a href="services.html">Services</a></li>
+                        <li class="nav-item"><a href="mission.html">Mission</a></li>
+                        <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a href="testimonials.html">Testimonials</a></li>
+                        <li class="nav-item"><a href="contact.html" class="active">Contact</a></li>
+                        <li class="nav-item"><a href="news.html">News</a></li>
+                        <li class="nav-item"><a href="faqs.html">FAQs</a></li>
+                        <li class="nav-item"><a href="profile.html">Designer</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Reach out to discuss your project or ask us any questions.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                               <a href="#" aria-label="Phone" class="contact-link">
+                                    <i class="fas fa-phone-alt"></i>
+                                </a>
+                            </div>
+                            <div class="contact-method-content">
+                                <h3>Call Us</h3>
+                                <p><a href="tel:+11234567890">(123) 456-7890</a></p>
+                                <p class="text-small">Monday - Friday: 9am - 6pm PST</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <a href="mailto:example@example.com" aria-label="Email" class="contact-link">
+                                    <i class="fas fa-envelope"></i>
+                                 </a>
+                            </div>
+                            <div class="contact-method-content">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:hello@horizondesign.com">hello@horizondesign.com</a></p>
+                                <p class="text-small">We aim to respond within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <a href="#" aria-label="Location" class="contact-link">
+                                     <i class="fas fa-map-marker-alt"></i>
+                                </a>
+                            </div>
+                            <div class="contact-method-content">
+                                <h3>Visit Us</h3>
+                                <p>123 Design Street<br>Creative District, CA 90210</p>
+                                <p class="text-small">By appointment only</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <img src="https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Map location" class="map-image">
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="web-design">Web Design</option>
+                                <option value="user-experience">User Experience</option>
+                                <option value="brand-identity">Brand Identity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-preview">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-preview-grid">
+                <div class="faq-item">
+                    <h3>What is your design process?</h3>
+                    <p>Our design process typically includes discovery, research, wireframing, design, and implementation phases, with client collaboration throughout.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does a typical project cost?</h3>
+                    <p>Project costs vary based on scope and requirements. We provide detailed estimates after an initial consultation.</p>
+                </div>
+            </div>
+            <div class="centered-btn">
+                <a href="faqs.html" class="btn btn-secondary">View All FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="logo footer-logo">
+                        <a href="index.html">Horizon<span>Design</span></a>
+                    </div>
+                    <p>Creating beautiful digital experiences for forward-thinking brands and businesses.</p>
+              
+                        <div class="social-links">
+                            <a href="#" aria-label="Twitter" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="LinkedIn" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                    </div>
+                  
+                </div>
+                <div class="footer-nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="mission.html">Mission & Vision</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="news.html">News & Blog</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="profile.html">Designer Profile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p>123 Design Street<br>Creative District, CA 90210</p>
+                        <p>Email: <a href="mailto:hello@horizondesign.com">hello@horizondesign.com</a></p>
+                        <p>Phone: <a href="tel:+11234567890">(123) 456-7890</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Horizon Design Studio. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
